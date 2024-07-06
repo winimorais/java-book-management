@@ -1,0 +1,5 @@
+com\example\app\config\SecurityConfiguration.class
+com\example\app\model\Book.class
+com\example\app\model\Review.class
+com\example\app\Application.class
+com\example\app\model\User.class

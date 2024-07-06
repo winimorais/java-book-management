@@ -1,5 +1,14 @@
-com\example\app\config\SecurityConfiguration.class
-com\example\app\model\Book.class
 com\example\app\model\Review.class
 com\example\app\Application.class
 com\example\app\model\User.class
+com\example\app\repository\BookRepository.class
+com\example\app\repository\UserRepository.class
+com\example\app\service\BookService.class
+com\example\app\config\SecurityConfiguration.class
+com\example\app\controller\ReviewController.class
+com\example\app\controller\UserController.class
+com\example\app\repository\ReviewRepository.class
+com\example\app\model\Book.class
+com\example\app\controller\BookController.class
+com\example\app\service\ReviewService.class
+com\example\app\service\UserService.class

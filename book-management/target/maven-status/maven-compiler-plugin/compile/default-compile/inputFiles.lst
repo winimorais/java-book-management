@@ -1,5 +1,14 @@
 C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\Application.java
 C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\config\SecurityConfiguration.java
+C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\controller\BookController.java
+C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\controller\ReviewController.java
+C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\controller\UserController.java
 C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\model\Book.java
 C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\model\Review.java
 C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\model\User.java
+C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\repository\BookRepository.java
+C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\repository\ReviewRepository.java
+C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\repository\UserRepository.java
+C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\service\BookService.java
+C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\service\ReviewService.java
+C:\Users\winim\OneDrive\Documentos\Git\src\Projetos\java\java-book-management\book-management\src\main\java\com\example\app\service\UserService.java

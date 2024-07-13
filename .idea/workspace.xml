@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f682cb-7d2d-4374-b808-d35c4b712843" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/ReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/ReviewRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/service/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-management/target/Application-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/Application-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-management/target/Application-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/Application-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/target/classes/com/example/app/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/classes/com/example/app/config/SecurityConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/classes/com/example/app/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/classes/com/example/app/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/classes/com/example/app/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/classes/com/example/app/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/classes/com/example/app/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/classes/com/example/app/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +49,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/winim/OneDrive/Documentos/Git/src/Projetos/java/java-book-management",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/winim/OneDrive/Documentos/Git/src/Projetos/java/java-book-management&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn archetype:generate -DgroupId=com.example -DartifactId=myapp -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false " />
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.app.Application" />
       <module name="Application" />
@@ -68,9 +80,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.BookControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.testAddBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.BookControllerTest" />
+      <option name="METHOD_NAME" value="testAddBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.ReviewControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewControllerTest.testAddReview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.ReviewControllerTest" />
+      <option name="METHOD_NAME" value="testAddReview" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.BookControllerTest.testAddBook" />
+        <item itemvalue="JUnit.BookControllerTest" />
+        <item itemvalue="JUnit.ReviewControllerTest.testAddReview" />
+        <item itemvalue="JUnit.ReviewControllerTest" />
       </list>
     </recent_temporary>
   </component>

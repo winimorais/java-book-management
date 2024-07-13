@@ -1,0 +1,37 @@
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <providers>
+                <timestamp>
+                    <timeZone>UTC</timeZone>
+                </timestamp>
+                <pattern>
+                    <pattern>
+                        {
+                        "timestamp": "%date",
+                        "level": "%level",
+                        "logger": "%logger",
+                        "thread": "%thread",
+                        "message": "%message",
+                        "context": {
+                        "application": "${spring.application.name:-}"
+                        }
+                        }
+                    </pattern>
+                </pattern>
+                <loggerName />
+                <threadName />
+                <logLevel />
+                <message />
+                <context />
+                <stackTrace />
+            </providers>
+        </encoder>
+    </appender>
+
+    <logger name="com.example.app" level="DEBUG"/>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+    </root>
+</configuration>

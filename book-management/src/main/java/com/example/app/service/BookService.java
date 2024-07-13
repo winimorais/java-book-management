@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
 @Service
 public class BookService {
@@ -22,7 +23,7 @@ public class BookService {
         return bookRepository.findAll();
     }
 
-    public Optional<Book> findById(Long id) {
+    public Optional<Book> findById(String id) {
         return bookRepository.findById(id);
     }
 

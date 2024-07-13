@@ -1,21 +1,25 @@
 package com.example.app.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.GenericGenerator;
 
-@Entity
-@Table(name = "reviews")
+import java.util.UUID;
+
 @Data
 @NoArgsConstructor
+//@AllArgsConstructor
+@Entity
+@Table(name = "reviews")
 public class Review {
 
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    private String content;
-    private int rating;
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
+    @Column(name = "id", updatable = false, nullable = false)
+    private String id;
 
     @ManyToOne
     @JoinColumn(name = "book_id")
@@ -24,4 +28,8 @@ public class Review {
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
+
+    private String content;
+    private int rating;
+
 }

@@ -1,0 +1,7 @@
+com\example\controller\ReviewControllerTest.class
+com\example\service\UserServiceTest.class
+com\example\controller\BookControllerTest.class
+com\example\ApplicationTest.class
+com\example\controller\UserControllerTest.class
+com\example\service\BookServiceTest.class
+com\example\service\ReviewServiceTest.class

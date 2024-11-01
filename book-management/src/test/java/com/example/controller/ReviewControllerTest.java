@@ -3,7 +3,7 @@ package com.example.controller;
 import com.example.app.controller.ReviewController;
 import com.example.app.model.Book;
 import com.example.app.model.Review;
-import com.example.app.service.ReviewService;
+import com.example.app.service.ReviewServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -12,7 +12,6 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -22,7 +21,7 @@ import static org.mockito.Mockito.*;
 class ReviewControllerTest {
 
     @Mock
-    private ReviewService reviewService;
+    private ReviewServiceImpl reviewService;
 
     @InjectMocks
     private ReviewController reviewController;

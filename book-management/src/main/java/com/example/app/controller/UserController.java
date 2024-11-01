@@ -1,5 +1,4 @@
 package com.example.app.controller;
-
 import com.example.app.model.User;
 import com.example.app.service.UserService;
 import lombok.extern.slf4j.Slf4j;

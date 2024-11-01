@@ -2,7 +2,7 @@ package com.example.service;
 
 import com.example.app.model.User;
 import com.example.app.repository.UserRepository;
-import com.example.app.service.UserService;
+import com.example.app.service.UserServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -20,7 +20,7 @@ class UserServiceTest {
     private UserRepository userRepository;
 
     @InjectMocks
-    private UserService userService;
+    private UserServiceImpl userService;
 
     @BeforeEach
     void setUp() {

@@ -5,25 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f682cb-7d2d-4374-b808-d35c4b712843" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/service/ReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/ReviewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/ReviewRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/service/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/service/ReviewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/main/java/com/example/app/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/test/java/com/example/controller/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/test/java/com/example/controller/BookControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/test/java/com/example/controller/ReviewControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/test/java/com/example/controller/ReviewControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/test/java/com/example/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/test/java/com/example/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/test/java/com/example/service/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/test/java/com/example/service/BookServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/test/java/com/example/service/ReviewServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/test/java/com/example/service/ReviewServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/src/test/java/com/example/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/src/test/java/com/example/service/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-management/target/Application-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/Application-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-management/target/Application-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/Application-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/classes/com/example/app/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/classes/com/example/app/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/classes/com/example/app/controller/ReviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/classes/com/example/app/controller/ReviewController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-management/target/classes/com/example/app/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/classes/com/example/app/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-management/target/classes/com/example/app/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/classes/com/example/app/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/classes/com/example/app/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/classes/com/example/app/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/classes/com/example/app/service/ReviewService.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/classes/com/example/app/service/ReviewService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-management/target/classes/com/example/app/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/classes/com/example/app/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.controller.BookControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.controller.BookControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.controller.ReviewControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.controller.ReviewControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.controller.UserControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.controller.UserControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.service.BookServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.service.BookServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.service.ReviewServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.service.ReviewServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.service.UserServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/TEST-com.example.service.UserServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.controller.BookControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.controller.BookControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.controller.ReviewControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.controller.ReviewControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.controller.UserControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.controller.UserControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.service.BookServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.service.BookServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.service.ReviewServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.service.ReviewServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.service.UserServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/surefire-reports/com.example.service.UserServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/test-classes/com/example/controller/BookControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/test-classes/com/example/controller/BookControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/test-classes/com/example/controller/ReviewControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/test-classes/com/example/controller/ReviewControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/test-classes/com/example/controller/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/test-classes/com/example/controller/UserControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/test-classes/com/example/service/BookServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/test-classes/com/example/service/BookServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/test-classes/com/example/service/ReviewServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/test-classes/com/example/service/ReviewServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-management/target/test-classes/com/example/service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/book-management/target/test-classes/com/example/service/UserServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

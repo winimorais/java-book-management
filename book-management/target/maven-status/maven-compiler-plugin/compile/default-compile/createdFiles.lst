@@ -1,6 +1,9 @@
 com\example\app\model\Review.class
 com\example\app\Application.class
+com\example\app\service\UserServiceImpl.class
+com\example\app\service\ReviewServiceImpl.class
 com\example\app\model\User.class
+com\example\app\service\BookServiceImpl.class
 com\example\app\repository\BookRepository.class
 com\example\app\repository\UserRepository.class
 com\example\app\service\BookService.class

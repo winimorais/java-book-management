@@ -3,7 +3,7 @@ package com.example.service;
 import com.example.app.model.Book;
 import com.example.app.model.Review;
 import com.example.app.repository.ReviewRepository;
-import com.example.app.service.ReviewService;
+import com.example.app.service.ReviewServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -23,7 +23,7 @@ class ReviewServiceTest {
     private ReviewRepository reviewRepository;
 
     @InjectMocks
-    private ReviewService reviewService;
+    private ReviewServiceImpl reviewService;
 
     @BeforeEach
     void setUp() {
